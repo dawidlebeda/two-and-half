@@ -1,0 +1,103 @@
+@import "./variables.scss";
+
+footer {
+    margin-left: 50px;
+    width: $width1;
+    background: $back;
+    border-top: $cara
+  }
+  
+  .postavy {
+    height: 33px;
+    background: $back;
+    border-bottom: $cara2;
+  }
+  
+  ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 0px;
+    padding-left: 9.5px;
+  }
+  
+  li {
+    float: left;
+    border-right: rgb(161, 161, 161) solid 1px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  li:first-child {
+    padding-left: 0px;
+  }
+  
+  li a:hover {
+    color: #bb1414;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  .kontakt {
+    height: 20px;
+    background: $back;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 11px;
+    border-bottom: $cara2;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    body {
+      margin: 0 auto;
+      width: $width1;
+    }
+
+    footer {
+      width:$width11;
+    }
+    .postavy {
+      height: 22px;
+    }
+    li {
+      padding: 0px 11px 0px 11px;
+      margin: -3.5px 0px 0px 0px;
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 475px) {
+      body {
+        margin: 0 auto;
+        width: $width2;
+        height: 900px;
+      }
+
+      footer {
+        width: 245px;
+        margin-left: 25px;
+      }
+    
+      .postavy {
+        display: none;
+      }
+    
+      .kontakt {
+        height: 16px;
+        padding-top: 5px;
+      }
+    
+  }
+
+  
+
+  
+  

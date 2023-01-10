@@ -1,0 +1,15 @@
+@import "./components/variables.scss";
+
+body {
+    margin: 0 auto;
+    width: $width;
+    height: 1000px;
+    background: $back;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      margin: 0 auto;
+      width: $width1;
+    }
+}

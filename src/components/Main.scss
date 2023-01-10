@@ -1,0 +1,56 @@
+@import "./variables.scss";
+
+img {
+    width: $a;
+    height: $a;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.xychty {
+    width: $width;
+    height: 660px;
+    background: $back;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px 90px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      margin: 0 auto;
+      width: $width1;
+    }
+
+    .xychty {
+        width: $width1;
+        height: 620px;
+        gap: 50px 50px;
+      }
+}
+
+@media screen and (max-width: 475px) {
+    body {
+      margin: 0 auto;
+      width: $width2;
+      height: 900px;
+    }
+
+    .xychty {
+        width: $width2;
+        height: 780px;
+        gap: 25px 35px;
+        grid-template-columns: auto auto;
+      }
+}
+
+
