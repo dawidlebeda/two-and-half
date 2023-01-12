@@ -1,42 +1,24 @@
 @import "./variables";
 
 header {
-    width: $width;
-    height: 100px;
-    background-image: url("../imgs/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-bottom: $cara;
-  }
+  height: 100px;
+  background-image: url("../imgs/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: $cara;
+}
 
-  @media screen and (max-width: 600px) {
-
-  body {
-    margin: 0 auto;
-    width: $width1;
-  }
-
+@media screen and (max-width: 600px) {
   header {
     width: $width1;
     height: 80px;
   }
-
 }
 
 @media screen and (max-width: 475px) {
-  
-  body {
-    margin: 0 auto;
-    width: $width2;
-    height: 900px;
-  }
-
   header {
     width: $width2;
     height: 60px;
     background-position: center;
   }
-
 }
-
-
