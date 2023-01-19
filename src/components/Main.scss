@@ -3,7 +3,7 @@
 img {
   width: $a;
   height: $a;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
   transition: 0.5s;
 }
@@ -13,7 +13,7 @@ img:hover {
   cursor: pointer;
 }
 
-.xychty {
+.faces {
   width: $width;
   height: 660px;
   background: $back;
@@ -31,7 +31,7 @@ img:hover {
     width: $width1;
   }
 
-  .xychty {
+  .faces {
     width: $width1;
     height: 620px;
     gap: 50px 50px;
@@ -45,7 +45,7 @@ img:hover {
     height: 900px;
   }
 
-  .xychty {
+  .faces {
     width: $width2;
     height: 780px;
     gap: 25px 35px;

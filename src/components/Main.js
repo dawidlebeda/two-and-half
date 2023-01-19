@@ -64,65 +64,65 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div className="xychty">
+      <div className="faces">
         <img
           src={require("../imgs/charlie.jpg")}
-          alt="#"
+          alt="fotka charlieho"
           onClick={this.playAndilci}
         />
         <img
           src={require("../imgs/charlie2.jpg")}
-          alt="#"
+          alt="fotka charlieho"
           onClick={this.playChlastat}
         />
         <img
           src={require("../imgs/charlie3.jpg")}
-          alt="#"
+          alt="fotka charlieho"
           onClick={this.playRozumim}
         />
         <img
           src={require("../imgs/alan.jpg")}
-          alt="#"
+          alt="fotka alana"
           onClick={this.playHlava}
         />
         <img
           src={require("../imgs/alan2.jpg")}
-          alt="#"
+          alt="fotka alana"
           onClick={this.playProktolog}
         />
         <img
           src={require("../imgs/alan3.jpg")}
-          alt="#"
+          alt="fotka alana"
           onClick={this.playTekutiny}
         />
         <img
           src={require("../imgs/Berta.jpg")}
-          alt="#"
+          alt="fotka berty"
           onClick={this.playKondom}
         />
         <img
           src={require("../imgs/berta2.jpg")}
-          alt="#"
+          alt="fotka berty"
           onClick={this.playOpera}
         />
         <img
           src={require("../imgs/berta3.jpg")}
-          alt="#"
+          alt="fotka berty"
           onClick={this.playVysavac}
         />
         <img
           src={require("../imgs/jake.jpg")}
-          alt="#"
+          alt="fotka jakea"
           onClick={this.playUkol}
         />
         <img
           src={require("../imgs/evelyn.jpg")}
-          alt="#"
+          alt="fotka evelyn"
           onClick={this.playCigaretka}
         />
         <img
           src={require("../imgs/herb.jpg")}
-          alt="#"
+          alt="fotka herba"
           onClick={this.playHerb}
         />
       </div>
